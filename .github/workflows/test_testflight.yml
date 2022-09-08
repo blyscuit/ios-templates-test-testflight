@@ -9,8 +9,7 @@ name: Test Upload Build to TestFlight
 ### APPSTORE_CONNECT_API_KEY
 
 on:
-  push:
-    branches: [ feature/**, bug/**, chore/** ]
+  pull_request
 
 jobs:    
   build:
